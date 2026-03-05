@@ -3,17 +3,15 @@
 
 title: "简历标题"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
-name: "你的名字"
-jobtitle: "求职意向" #可空不显示
+name: "梁华辰"
+jobtitle: "意向:体育部，文艺部" #可空不显示
 photo: "assets/img/photo.jpg" #照片可空，不显示
 
 #联系方式
 contact: #联系方式连接等3~5行
-- text: "youremail@example.com" #文本内容
-  href: 'mailto:youremail@example.com' #链接，无链接则空  
+- text: "kevinlianghc@163.com" #文本内容
   icon: 'icons/email.svg' #图标 svg文件
-- text: "1234567890"
-  href: 'tel:1234567890'
+- text: "18476577310"
   icon: 'icons/phone.svg'
 
 
@@ -45,20 +43,21 @@ main: #简历主要内容，
     - 跑步
   - title: 文艺
     items: #itmems 可以小块的方式显示
+    - 阅读
     - 钢琴
     - 黑管
     - 舞蹈
 
-- type: skills
-  # name: "技能"
-  content:
-  - title: 编程语言
-    items: #itmems 可以小块的方式显示
-    - 汉语
-    - 语言2
-    - 语言3
-  - title: Skill Group
-    summary: Consectetur, Adipiscing, Elit
+# - type: skills
+#   # name: "技能"
+#   content:
+#   - title: 编程语言
+#     items: #itmems 可以小块的方式显示
+#     - 汉语
+#     - 语言2
+#     - 语言3
+#   - title: Skill Group
+#     summary: Consectetur, Adipiscing, Elit
 
 
 - type: experience1
@@ -68,7 +67,6 @@ main: #简历主要内容，
     sub: 某某公司
     duration: "xxxx年xx月 - yyyy年yy月"
     tags:
-    - 标签
     summary: 职务或者工作总结(自动折叠)
     detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
     # open: open
@@ -79,14 +77,11 @@ main: #简历主要内容，
   name: 相关经验
   content:
   - title: 深圳中学REI机器人社
-    duration: xxxx年xx月 - yyyy年yy月
+    duration: 2023年6月 - 2024年6月
     detail: 宣传招新，百团摊位布设，社课活动开展
     sub: 社长
   - title: 华南创新商业模拟大赛
-    summary: Projects' introduction or summary
-    open: open
-    detail:
-      md: _data/demo.md
+    detail: 招募参赛人员，比赛场地布设，比赛系统的部署和教学，比赛运营
     sub: 组委
    #可继续添加更多内容
 
