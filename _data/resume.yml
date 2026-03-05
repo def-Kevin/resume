@@ -45,19 +45,6 @@ main: #简历主要内容，
     - 黑管
     - 舞蹈
 
-
-
-- type: experience1
-  name: 111
-  content:
-  - title: 职位
-    sub: 某某公司
-    duration: "xxxx年xx月 - yyyy年yy月"
-    tags:
-    summary: 职务或者工作总结(自动折叠)
-    detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
-    # open: open
-    #可以设置open默认展开
  
 
 - type: experience
@@ -68,8 +55,18 @@ main: #简历主要内容，
     detail: 宣传招新，百团摊位布设，社课活动开展
     sub: 社长
   - title: 华南创新商业模拟大赛
-    detail: 招募参赛人员，比赛场地布设，比赛系统的部署和教学，比赛运营
+    detail: 从广深两地招募参赛人员，比赛场地布设，比赛系统的部署和教学，比赛运营
     sub: 组委
+
+
+- type: characteristics
+  name: 相关特质
+  content:
+  - title: 从小参与文体活动，热爱文体活动
+  - title: 有责任担当
+  - title: 善于沟通协作
+  - title: 乐于学习
+
    #可继续添加更多内容
 
 #others 其他简略内容(列表)
