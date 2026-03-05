@@ -34,21 +34,19 @@ main: #简历主要内容，
     duration: "2011年x月 - 2015年"
     sub: 地点或学历
     detail: 专业或者简短说明
-  - title: Your University
-    duration: Aug 2007 - Jun 2011
-    sub: Ut enim ad minim veniam
-    detail: Master Bachelor of Computer Science & Technology.
 
-# - type: skills
-#   # name: "技能"
-#   content:
-#   - title: 编程语言
-#     items: #itmems 可以小块的方式显示
-#     - 汉语
-#     - 语言2
-#     - 语言3
-#   - title: Skill Group
-#     summary: Consectetur, Adipiscing, Elit
+
+
+- type: skills
+  # name: "技能"
+  content:
+  - title: 编程语言
+    items: #itmems 可以小块的方式显示
+    - 汉语
+    - 语言2
+    - 语言3
+  - title: Skill Group
+    summary: Consectetur, Adipiscing, Elit
 
 - type: experience
   name: 经验
