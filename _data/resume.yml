@@ -33,6 +33,22 @@ main: #简历主要内容，
 
 
 
+- type: 爱好特长
+  # name: "技能"
+  content:
+  - title: 体育
+    items: #itmems 可以小块的方式显示
+    - 足球
+    - 网球
+    - 乒乓球
+    - 篮球
+    - 跑步
+  - title: 文艺
+    items: #itmems 可以小块的方式显示
+    - 钢琴
+    - 黑管
+    - 舞蹈
+
 - type: skills
   # name: "技能"
   content:
@@ -44,20 +60,9 @@ main: #简历主要内容，
   - title: Skill Group
     summary: Consectetur, Adipiscing, Elit
 
-- type: skills
-  # name: "技能"
-  content:
-  - title: 编程语言
-    items: #itmems 可以小块的方式显示
-    - 汉语
-    - 语言2
-    - 语言3
-  - title: Skill Group
-    summary: Consectetur, Adipiscing, Elit
 
-
-- type: experience
-  name: 经验
+- type: experience1
+  name: 111
   content:
   - title: 职位
     sub: 某某公司
@@ -70,37 +75,38 @@ main: #简历主要内容，
     #可以设置open默认展开
  
 
-- type: projects
-  name: Projects
+- type: experience
+  name: 相关经验
   content:
-  - title: 项目名称
+  - title: 深圳中学REI机器人社
     duration: xxxx年xx月 - yyyy年yy月
-    detail: 项目和工作介绍，项目总结.
-    sub: 维护者
-  - title: Project Name
+    detail: 宣传招新，百团摊位布设，社课活动开展
+    sub: 社长
+  - title: 华南创新商业模拟大赛
     summary: Projects' introduction or summary
+    open: open
     detail:
       md: _data/demo.md
-    sub: Creator and maintainer.
+    sub: 组委
    #可继续添加更多内容
 
 #others 其他简略内容(列表)
-others: #其他列表显示
-- type: others #ID可以为空
-  name: '其他'
-  content: #选择需要的格式
-  - 单行文字
-  - title: "加粗:"
-    text: "列表项二"
-  - title: "兴趣:"
-    items: #单行列表
-    - 睡觉
-    - 吃饭
-    - coding
-  - title: 列表
-    list:
-    - 第一项
-    - 第二项
+# others: #其他列表显示
+# - type: others #ID可以为空
+#   name: '其他'
+#   content: #选择需要的格式
+#   - 单行文字
+#   - title: "加粗:"
+#     text: "列表项二"
+#   - title: "兴趣:"
+#     items: #单行列表
+#     - 睡觉
+#     - 吃饭
+#     - coding
+#   - title: 列表
+#     list:
+#     - 第一项
+#     - 第二项
 #- type: 
 #  name: '其他'
 #  content: #选择需要的格式
