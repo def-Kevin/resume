@@ -22,12 +22,9 @@ contact: #联系方式连接等3~5行
 #main下面是主体内容，类别条数不限
 main: #简历主要内容，
 - type: education #类别为ID
-  name: 教育 #显示名称，空则使用type
+  name: 方向 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
-  - title: 大学名称
-    duration: "2011年x月 - 2015年"
-    sub: 地点或学历
-    detail: 专业或者简短说明
+  - title: 人工智能拔尖英才班
 
 
 
@@ -37,9 +34,9 @@ main: #简历主要内容，
   - title: 体育
     items: #itmems 可以小块的方式显示
     - 足球
+    - 篮球
     - 网球
     - 乒乓球
-    - 篮球
     - 跑步
   - title: 文艺
     items: #itmems 可以小块的方式显示
@@ -48,16 +45,6 @@ main: #简历主要内容，
     - 黑管
     - 舞蹈
 
-# - type: skills
-#   # name: "技能"
-#   content:
-#   - title: 编程语言
-#     items: #itmems 可以小块的方式显示
-#     - 汉语
-#     - 语言2
-#     - 语言3
-#   - title: Skill Group
-#     summary: Consectetur, Adipiscing, Elit
 
 
 - type: experience1
