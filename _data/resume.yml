@@ -15,12 +15,8 @@ contact: #联系方式连接等3~5行
 - text: "1234567890"
   href: 'tel:1234567890'
   icon: 'icons/phone.svg'
-- text: "your-website.com"
-  href: 'http://your-website.com'
-  icon: 'icons/web.svg'
-- text: "GitHubID"
-  href: 'https://github.com/NewFuture'
-  icon: "icons/github.svg"
+
+
   attr: 'target="_blank"' #新标签页打开
   # - text: "地址"
   #   icon: "icons/location.svg"
@@ -47,6 +43,18 @@ main: #简历主要内容，
     - 语言3
   - title: Skill Group
     summary: Consectetur, Adipiscing, Elit
+
+- type: skills
+  # name: "技能"
+  content:
+  - title: 编程语言
+    items: #itmems 可以小块的方式显示
+    - 汉语
+    - 语言2
+    - 语言3
+  - title: Skill Group
+    summary: Consectetur, Adipiscing, Elit
+
 
 - type: experience
   name: 经验
